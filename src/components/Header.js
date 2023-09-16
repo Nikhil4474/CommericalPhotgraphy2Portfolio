@@ -1,21 +1,23 @@
-import React from 'react';
-import Socials from './Socials';
-import Logo from '../img/header/logo.svg'
-import MobileNav from './MobileNav';
-import {Link} from 'react-router-dom';
-import Portfolio from '../pages/Portfolio'
+import React from "react"
+import Socials from "./Socials"
+import Logo from "../img/header/logo.svg"
+import MobileNav from "./MobileNav"
+import { Link } from "react-router-dom"
+import Portfolio from "../pages/Portfolio"
 
 const Header = () => {
   return (
-    <header className="bg-pink-200 fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center">
+    <header className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center">
       <div className="flex items-center justify-between w-full">
-        <Link to={'/'} className='mex-w-[200px]'>
+        <Link
+          to={"/"}
+          className="mex-w-[200px]">
           <img
             src={Logo}
-            alt=''
+            alt=""
           />
         </Link>
-        <nav className="hidden lg:flex gap-x-12 font-semibold">
+        <nav className="hidden xl:flex gap-x-12 font-semibold">
           <Link
             to={"/"}
             className="text-[#696c6d hover:text-primary transition">
@@ -38,10 +40,10 @@ const Header = () => {
           </Link>
         </nav>
       </div>
-        <Socials/>
-        <MobileNav/>
+      <Socials />
+      <MobileNav />
     </header>
   )
-};
+}
 
-export default Header;
+export default Header

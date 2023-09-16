@@ -1,7 +1,20 @@
-import React from 'react';
+import React from "react"
+import { ImInstagram } from "react-icons/im"
 
 const Socials = () => {
-  return <div className='hidden xl:flex ml-24'>Socials</div>;
-};
+  return (
+    <div className="hidden xl:flex ml-24">
+      <ul className="flex gap-x-4">
+        <li>
+          <a
+            href="https://www.instagram.com/nikhil77477/"
+            target="_blank">
+            <ImInstagram />
+          </a>
+        </li>
+      </ul>
+    </div>
+  )
+}
 
-export default Socials;
+export default Socials
