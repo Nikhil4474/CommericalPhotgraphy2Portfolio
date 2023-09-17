@@ -1,5 +1,5 @@
 import React from "react"
-import WomanImg from "../img/home/woman.png"
+import me from "../img/home/me.jpg"
 import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
           <div className="flex justify-end max-h-96 lg:max-h-max">
             <div className="relative lg:-right-40 overflow-hidden">
               <img
-                src={WomanImg}
+                src={me}
                 alt=""></img>
             </div>
           </div>
