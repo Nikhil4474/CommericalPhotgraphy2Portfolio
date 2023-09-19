@@ -14,7 +14,7 @@ const About = () => {
           </div>
           <div className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex-col justify-center items-center lg:items-start">
             <h1 className="h1">About Me</h1>
-            <p className="mb-12 max-w-sm">I am a Junior at Prosper High School in Texas. I have been interested in photography since 6th grade. I am currently taking Commercial Photography 2 which would be by 3rd year of photography classes. I am also certified in Adobe Photoshop, Adobe Illustrator, and well experienced in Adobe Premiere Pro.</p>
+            <p className="mb-12 max-w-sm">I am a Junior at Prosper High School in Texas. I have been interested in photography since 6th grade. I am currently taking Commercial Photography 2 which would be my 3rd year of photography classes. I am also certified in Adobe Photoshop, Adobe Illustrator, and well experienced in Adobe Premiere Pro.</p>
             <Link
               to={"/portfolio"}
               className="btn">
