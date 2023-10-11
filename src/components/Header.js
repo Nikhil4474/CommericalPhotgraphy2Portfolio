@@ -3,7 +3,6 @@ import Socials from "./Socials"
 import Logo from "../img/header/logo.svg"
 import MobileNav from "./MobileNav"
 import { Link } from "react-router-dom"
-import Portfolio from "../pages/Portfolio"
 
 const Header = () => {
   return (
@@ -20,22 +19,32 @@ const Header = () => {
         <nav className="hidden xl:flex gap-x-12 font-semibold">
           <Link
             to={"/"}
-            className="text-[#696c6d hover:text-primary transition">
+            className="text-[#696c6d] hover:text-primary transition">
             Home
           </Link>
           <Link
             to={"/about"}
-            className="text-[#696c6d hover:text-primary transition">
+            className="text-[#696c6d] hover:text-primary transition">
             About
           </Link>
           <Link
-            to={"/portfolio"}
-            className="text-[#696c6d hover:text-primary transition">
-            Portfolio
+            to={"/favphotos"}
+            className="text-[#696c6d] hover:text-primary transition">
+            Fav Photos
+          </Link>
+          <Link
+            to={"/portraits"}
+            className="text-[#696c6d] hover:text-primary transition">
+            Portraits
+          </Link>
+          <Link
+            to={"/architecture"}
+            className="text-[#696c6d] hover:text-primary transition">
+            Architecture Photos
           </Link>
           <Link
             to={"/contact"}
-            className="text-[#696c6d hover:text-primary transition">
+            className="text-[#696c6d] hover:text-primary transition">
             Contact
           </Link>
         </nav>
